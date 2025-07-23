@@ -13,3 +13,5 @@ passlib
 pyjwt
 httpx
 pydantic
+pydantic_settings
+bycrypt
