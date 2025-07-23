@@ -185,7 +185,7 @@ uvicorn main:app --reload
 Open a **new terminal**, activate your virtual environment again if needed:
 
 ```bash
-cd frontend
+cd (frontend folder_name)
 streamlit run streamlit_app.py
 ```
 
@@ -201,10 +201,3 @@ streamlit run streamlit_app.py
 * ✅ View and continue previous chat history
 
 ---
-
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
-```
