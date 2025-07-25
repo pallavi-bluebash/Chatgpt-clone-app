@@ -6,7 +6,7 @@ This is a full-stack **ChatGPT Clone** web application built using **FastAPI** f
 
 ---
 
-## 🚀 Features
+## Features
 
 - 🔐 **User Registration & Login**
 - 💡 **Chat with AI (GPT-3.5-Turbo)**
