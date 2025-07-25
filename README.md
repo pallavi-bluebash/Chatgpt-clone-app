@@ -1,6 +1,6 @@
 # 💬 ChatGPT Clone App
 
-🚀 ChatGPT Clone – An AI-Powered Chatbot with Context Memory, Weather Intelligence, and Seamless User Experience
+ChatGPT Clone – An AI-Powered Chatbot with Context Memory, Weather Intelligence, and Seamless User Experience
 
 This is a full-stack **ChatGPT Clone** web application built using **FastAPI** for the backend and **Streamlit** for the frontend. It integrates OpenAI's `gpt-3.5-turbo` model and supports chat history, contextual memory, user authentication, and weather information via OpenWeatherMap API.
 
