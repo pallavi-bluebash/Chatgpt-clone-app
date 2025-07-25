@@ -1,4 +1,4 @@
-# 💬 ChatGPT Clone App
+# ChatGPT Clone App
 
 ChatGPT Clone – An AI-Powered Chatbot with Context Memory, Weather Intelligence, and Seamless User Experience
 
@@ -18,7 +18,7 @@ This is a full-stack **ChatGPT Clone** web application built using **FastAPI** f
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer       | Tools / Frameworks          |
 |-------------|-----------------------------|
@@ -31,7 +31,7 @@ This is a full-stack **ChatGPT Clone** web application built using **FastAPI** f
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 
 ```bash
 chatgpt-clone/
@@ -55,7 +55,7 @@ chatgpt-clone/
 
 ---
 
-## 🔐 Environment Variables (`.env`)
+## Environment Variables (`.env`)
 
 Create a `.env` file in the root with the following:
 
@@ -67,13 +67,13 @@ DATABASE_URL=postgresql://username:password@localhost:5432/Chatgpt
 
 ---
 
-## 📦 Installation & Setup 
+## Installation & Setup 
 
 Follow these step-by-step instructions to run the ChatGPT Clone App locally:
 
 ---
 
-### 🧰 Prerequisites
+### Prerequisites
 
 - Python 3.8 or above installed
 - PostgreSQL installed and running
@@ -82,7 +82,7 @@ Follow these step-by-step instructions to run the ChatGPT Clone App locally:
 
 ---
 
-### 📁 1. Clone the Repository
+###  1. Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/chatgpt-clone.git
@@ -93,7 +93,7 @@ cd chatgpt-clone
 
 ---
 
-### 🐘 2. Setup PostgreSQL Database
+###  2. Setup PostgreSQL Database
 
 1. Open PostgreSQL CLI or PgAdmin
 2. Create the database:
@@ -111,7 +111,7 @@ GRANT ALL PRIVILEGES ON DATABASE Chatgpt TO pallavi;
 
 ---
 
-### 🔐 3. Create `.env` File
+###  3. Create `.env` File
 
 In the root of the project, create a `.env` file and add the following:
 
@@ -125,7 +125,7 @@ DATABASE_URL=postgresql://username:password@localhost:5432/Chatgpt
 
 ---
 
-### 🧪 4. Create a Virtual Environment
+###  4. Create a Virtual Environment
 
 ```bash
 python3 -m venv venv
@@ -135,7 +135,7 @@ venv\Scripts\activate         # Windows
 
 ---
 
-### 📦 5. Install Dependencies
+###  5. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -143,7 +143,7 @@ pip install -r requirements.txt
 
 ---
 
-### ⚙️ 6. Run Alembic Migrations
+###  6. Run Alembic Migrations
 
 Alembic is used to create your database tables from SQLAlchemy models.
 
@@ -169,7 +169,7 @@ alembic upgrade head
 
 ---
 
-### 🚀 7. Run Backend (FastAPI)
+###  7. Run Backend (FastAPI)
 
 ```bash
 cd app
@@ -180,7 +180,7 @@ uvicorn main:app --reload
 
 ---
 
-### 💻 8. Run Frontend (Streamlit)
+###  8. Run Frontend (Streamlit)
 
 Open a **new terminal**, activate your virtual environment again if needed:
 
@@ -193,7 +193,7 @@ streamlit run streamlit_app.py
 
 ---
 
-### 🧪 9. Test the App
+###  9. Test the App
 
 * ✅ Register and login
 * ✅ Start chatting with GPT
